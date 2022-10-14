@@ -1,0 +1,41 @@
+{
+  "name": "training-passportjs",
+  "version": "1.0.0",
+  "description": "Training code using Passport JS to authenticate user in back-end",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx babel src -d dist",
+    "start": "npx nodemon --exec npx \"babel-node\" src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianaf/training-passportjs.git"
+  },
+  "keywords": [
+    "passport"
+  ],
+  "author": "sebastianaf",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sebastianaf/training-passportjs/issues"
+  },
+  "homepage": "https://github.com/sebastianaf/training-passportjs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
